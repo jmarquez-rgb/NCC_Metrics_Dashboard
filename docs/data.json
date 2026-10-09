@@ -365,5 +365,96 @@
       "summary_type": "long",
       "customer_sentiment": "Neutral, asked for a person"
     }
-  ]
+  ],
+  "channels": [
+    {
+      "channelType": "InboundCall",
+      "workitems": 466,
+      "abandoned": 62,
+      "transferred": 135,
+      "joined_workitems": 468,
+      "with_summary": 142
+    },
+    {
+      "channelType": "OutboundCall",
+      "workitems": 205,
+      "abandoned": 0,
+      "transferred": 1,
+      "joined_workitems": 205,
+      "with_summary": 29
+    },
+    {
+      "channelType": "Survey",
+      "workitems": 68,
+      "abandoned": 0,
+      "transferred": 0,
+      "joined_workitems": 68,
+      "with_summary": 0
+    },
+    {
+      "channelType": "InboundSMS",
+      "workitems": 66,
+      "abandoned": 0,
+      "transferred": 0,
+      "joined_workitems": null,
+      "with_summary": null
+    },
+    {
+      "channelType": "Chat",
+      "workitems": 30,
+      "abandoned": 5,
+      "transferred": 0,
+      "joined_workitems": 30,
+      "with_summary": 21
+    },
+    {
+      "channelType": "Email",
+      "workitems": 17,
+      "abandoned": 0,
+      "transferred": 0,
+      "joined_workitems": 17,
+      "with_summary": 0
+    },
+    {
+      "channelType": "PredictiveCall",
+      "workitems": 16,
+      "abandoned": 0,
+      "transferred": 0,
+      "joined_workitems": 16,
+      "with_summary": 14
+    },
+    {
+      "channelType": "OutboundEmail",
+      "workitems": 7,
+      "abandoned": 0,
+      "transferred": 0,
+      "joined_workitems": 7,
+      "with_summary": 0
+    },
+    {
+      "channelType": "OutboundSMS",
+      "workitems": 5,
+      "abandoned": 1,
+      "transferred": 0,
+      "joined_workitems": null,
+      "with_summary": null
+    },
+    {
+      "channelType": "PredictiveSMS",
+      "workitems": 4,
+      "abandoned": 0,
+      "transferred": 0,
+      "joined_workitems": 4,
+      "with_summary": 0
+    },
+    {
+      "channelType": "ProgressiveCall",
+      "workitems": 1,
+      "abandoned": 0,
+      "transferred": 0,
+      "joined_workitems": 1,
+      "with_summary": 1
+    }
+  ],
+  "agents": []
 }

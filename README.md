@@ -1,9 +1,9 @@
-# NCC Analytics (real data only)
+# NCC Contact Center Dashboard (real data only)
 
 A GitHub page that shows only numbers pulled from the NCC demo tenant (4258998).
 
 ## Pages
-Overview, Handle Time, Call Outcomes, AI Summary, Data Sources.
+Overview (all channels), Channels, Agents, Voice Handle Time, Call Outcomes, AI Summary, Data Sources.
 The Data Sources page lists how each number is calculated and what is left out on purpose.
 
 ## How it works
@@ -24,3 +24,8 @@ What goes in it: the whole contents of a Google service account JSON key file wi
 - Wrap-up time includes the wait for the AI summary.
 - Handle time ignores calls left undispositioned for over an hour.
 - What NCC counts as a transfer is not yet confirmed.
+
+## Channels and agents
+Channels are grouped as Voice (InboundCall, OutboundCall), Dialer (PredictiveCall, ProgressiveCall, PredictiveSMS), SMS, Chat, Email and Survey.
+Agent names are shortened from the agent username (derek.gray+superagent@nextiva.com becomes Derek Gray). The repo is public, so keep that in mind.
+SMS workitems did not match REPORTS_WORKITEMS on callId in the data we pulled, so they are missing from agent and summary numbers.

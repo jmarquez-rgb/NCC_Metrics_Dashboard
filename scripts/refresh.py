@@ -19,7 +19,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 # These two must work. The page has nothing to show without them.
 REQUIRED = ["kpis", "coverage_by_campaign"]
 # These are nice to have. If one fails, the page keeps its snapshot values for that card.
-OPTIONAL = ["wrap_by_summary", "stuck_calls", "termination_codes", "recent_calls"]
+OPTIONAL = ["channels", "agents", "wrap_by_summary", "stuck_calls", "termination_codes", "recent_calls"]
 
 
 def make_client():
